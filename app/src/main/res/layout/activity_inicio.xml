@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/init">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bienvenida"
+            android:text="@string/inicio"
+            android:textStyle="normal|bold"
+            android:textSize="25sp"
+            android:textAlignment="gravity"
+            android:gravity="top|center"
+            android:textColorHighlight="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_weight="0.25" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/principal"
+            android:src="@drawable/inicio"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/inicio2"
+            android:textStyle="normal|italic"
+            android:textSize="24sp"
+            android:textAlignment="gravity"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/bienvenida2"
+            android:layout_weight="0.25" />
+
+    </LinearLayout>
+</LinearLayout>

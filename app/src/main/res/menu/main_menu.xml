@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Figuras"
+        android:id="@+id/menu_figuras" />
+    <item android:title="Dibujos"
+        android:id="@+id/menu_dibujos" />
+    <item android:title="Mates"
+        android:id="@+id/menu_mates" />
+    <item android:title="Inicio"
+        android:id="@+id/menu_volver" />
+    <item android:title="Opciones"
+        android:id="@+id/menu_options">
+        <menu >
+            <item android:title="Silenciar"
+                android:id="@+id/menu_silencio"
+                android:icon="@android:drawable/ic_lock_silent_mode" />
+            <item android:title="Borrar Puntuaciones"
+                android:id="@+id/menu_punt" ></item>
+        </menu>
+    </item>
+</menu>

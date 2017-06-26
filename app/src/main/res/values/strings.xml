@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Equipo_canal_educativo</string>
+    <string name="actividad1">Selecciona la figura a continuación:</string>
+    <string name="actividad2">Selecciona el dibujo a continuación:</string>
+    <string name="selecciona_actividad">Selecciona la actividad que quieres hacer:\n</string>
+    <string name="figuras">Jugar con figuras</string>
+    <string name="dibujos">Jugar con dibujitos</string>
+    <string name="mates">Aburrirse con las mates</string>
+    <string name="estadisticas">\nTus puntuaciones:\n</string>
+    <string name="reset">Resetear cuentas</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="inicio">Bienvenidos\n a \nEquipo Canal Educativo</string>
+    <string name="inicio2">Juega con figuras, dibujos y mates</string>
+    <string name="salir">Pulsa el botón atrás para salir</string>
+
+    <string-array name="figuras">
+        <item>Triángulo</item>
+        <item>Círculo</item>
+        <item>Cuadrado</item>
+        <item>Rectángulo</item>
+        <item>Pentágono</item>
+        <item>Hexágono</item>
+    </string-array>
+    <string-array name="dibujos">
+        <item>Árbol</item>
+        <item>Casa</item>
+        <item>Coche</item>
+        <item>Bus</item>
+        <item>Barco</item>
+        <item>Avión</item>
+    </string-array>
+
+    <string name="title_activity_init">InitActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

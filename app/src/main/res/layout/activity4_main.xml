@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_cuenta1"
+            android:layout_weight="0.4" />
+
+        <CheckBox
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_check1"
+            android:text="Correcto"
+            android:clickable="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/a4_result1"
+            android:layout_weight="0.4"
+            android:contextClickable="false"
+            android:editable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_cuenta2"
+            android:layout_weight="0.4" />
+
+        <CheckBox
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_check2"
+            android:text="Correcto"
+            android:clickable="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/a4_result2"
+            android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_cuenta3"
+            android:layout_weight="0.4" />
+
+        <CheckBox
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_check3"
+            android:text="Correcto"
+            android:clickable="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/a4_result3"
+            android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_cuenta4"
+            android:layout_weight="0.4" />
+
+        <CheckBox
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_check4"
+            android:text="Correcto"
+            android:clickable="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/a4_result4"
+            android:layout_weight="0.4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <Button
+            android:text="@string/reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_orange_dark"
+            android:id="@+id/a4_btReset" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a4_resultado"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical|center"
+            android:textStyle="normal|italic"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>
